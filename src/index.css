@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -7,65 +6,67 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 0 0% 100%;                  /* trắng */
+    --foreground: 39.4 90% 15%;               /* nâu cam đậm cho text */
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 39.4 90% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 39.4 90% 15%;
 
-    --primary: 120 65% 35%;
-    --primary-foreground: 0 0% 98%;
+    /* Màu chủ đạo: Amber (giống #ebac42 ở mức 500) */
+    --primary: 39 95% 52%;                    /* amber ≈ #f59e0b → HSL: 39 95% 52% */
+    --primary-foreground: 0 0% 98%;            /* trắng trên primary */
 
-    --secondary: 120 40% 96.1%;
-    --secondary-foreground: 120 47.4% 11.2%;
+    --secondary: 45 93% 94%;                   /* amber-100 */
+    --secondary-foreground: 39 90% 25%;
 
-    --muted: 120 40% 96.1%;
-    --muted-foreground: 120 16.3% 46.9%;
+    --muted: 45 93% 94%;
+    --muted-foreground: 39 60% 50%;
 
-    --accent: 120 100% 97%;
-    --accent-foreground: 120 47.4% 11.2%;
+    --accent: 45 100% 90%;                     /* amber-200 nhẹ */
+    --accent-foreground: 39 90% 25%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 84.2% 60.2%;              /* giữ đỏ mặc định */
     --destructive-foreground: 0 0% 98%;
 
-    --border: 120 31.8% 91.4%;
-    --input: 120 31.8% 91.4%;
-    --ring: 120 65% 35%;
+    --border: 45 70% 88%;
+    --input: 45 70% 88%;
+    --ring: 39 95% 52%;                        /* focus ring cùng primary */
 
     --radius: 0.5rem;
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 0 0% 98%;
+    --background: 39 50% 10%;                  /* nâu cam rất tối */
+    --foreground: 45 70% 92%;                  /* amber nhạt cho text */
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 0 0% 98%;
+    --card: 39 50% 10%;
+    --card-foreground: 45 70% 92%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 39 50% 12%;
+    --popover-foreground: 45 70% 92%;
 
-    --primary: 120 65% 35%;
-    --primary-foreground: 0 0% 98%;
+    /* Dark mode vẫn dùng amber làm primary (rất đẹp) */
+    --primary: 45 100% 65%;                    /* amber-400/500 sáng hơn để nổi bật */
+    --primary-foreground: 39 60% 12%;          /* tối trên primary sáng */
 
-    --secondary: 120 32.6% 17.5%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 39 70% 20%;
+    --secondary-foreground: 45 70% 88%;
 
-    --muted: 120 32.6% 17.5%;
-    --muted-foreground: 120 20.2% 65.1%;
+    --muted: 39 70% 20%;
+    --muted-foreground: 45 50% 65%;
 
-    --accent: 120 32.6% 17.5%;
-    --accent-foreground: 0 0% 98%;
+    --accent: 39 70% 20%;
+    --accent-foreground: 45 70% 88%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 120 32.6% 17.5%;
-    --input: 120 32.6% 17.5%;
-    --ring: 120 26.8% 83.9%;
+    --border: 39 60% 25%;
+    --input: 39 60% 25%;
+    --ring: 45 100% 65%;                       /* ring sáng hơn trong dark mode */
   }
 }
 
@@ -76,10 +77,15 @@
 
   body {
     @apply bg-background text-foreground;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-bold;
   }
 }
@@ -113,11 +119,11 @@
 }
 
 .gradient-text {
-  @apply text-transparent bg-clip-text bg-gradient-to-r from-brand-600 to-brand-800;
+  @apply text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800;
 }
 
 .hotline-button {
-  @apply fixed bottom-6 right-6 z-50 bg-brand-600 text-white rounded-full shadow-lg flex items-center justify-center p-3 hover:bg-brand-700 transition-all hover:scale-105;
+  @apply fixed bottom-6 right-6 z-50 bg-amber-600 text-white rounded-full shadow-lg flex items-center justify-center p-3 hover:bg-amber-700 transition-all hover:scale-105;
 }
 
 .hotline-text {

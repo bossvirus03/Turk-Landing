@@ -6,20 +6,20 @@ const ServicesSection = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Dịch Vụ <span className="gradient-text">Tour</span>
           </h2>
-          <div className="w-20 h-1 bg-brand-500 mx-auto mb-6"></div>
+          <div className="w-20 h-1 bg-amber-500 mx-auto mb-6"></div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto">
           <div className="opacity-0 animate-fade-in-up animate-delay-200">
-            <div className="bg-brand-50 rounded-xl p-8 h-full shadow-md">
-              <h3 className="text-2xl font-bold mb-6 text-brand-700 border-b border-brand-200 pb-3">
+            <div className="bg-amber-50 rounded-xl p-8 h-full shadow-md">
+              <h3 className="text-2xl font-bold mb-6 text-amber-700 border-b border-amber-200 pb-3">
                 Giá tour bao gồm:
               </h3>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start gap-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-brand-500 shrink-0 mt-0.5"
+                    className="h-6 w-6 text-amber-500 shrink-0 mt-0.5"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -39,7 +39,7 @@ const ServicesSection = () => {
                 <li className="flex items-start gap-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-brand-500 shrink-0 mt-0.5"
+                    className="h-6 w-6 text-amber-500 shrink-0 mt-0.5"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -58,7 +58,7 @@ const ServicesSection = () => {
                 <li className="flex items-start gap-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-brand-500 shrink-0 mt-0.5"
+                    className="h-6 w-6 text-amber-500 shrink-0 mt-0.5"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -77,7 +77,7 @@ const ServicesSection = () => {
                 <li className="flex items-start gap-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-brand-500 shrink-0 mt-0.5"
+                    className="h-6 w-6 text-amber-500 shrink-0 mt-0.5"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -90,13 +90,15 @@ const ServicesSection = () => {
                     />
                   </svg>
                   <span>
-                    Các điểm tham quan ngoài chương trình, chi phí tham gia các hoạt động (quý khách có nhu cầu tham quan thêm nếu thời gian và lộ trình cho phép).
+                    Các điểm tham quan ngoài chương trình, chi phí tham gia các
+                    hoạt động (quý khách có nhu cầu tham quan thêm nếu thời gian
+                    và lộ trình cho phép).
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-brand-500 shrink-0 mt-0.5"
+                    className="h-6 w-6 text-amber-500 shrink-0 mt-0.5"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -113,7 +115,7 @@ const ServicesSection = () => {
                 <li className="flex items-start gap-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-brand-500 shrink-0 mt-0.5"
+                    className="h-6 w-6 text-amber-500 shrink-0 mt-0.5"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -133,7 +135,7 @@ const ServicesSection = () => {
                 <li className="flex items-start gap-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-brand-500 shrink-0 mt-0.5"
+                    className="h-6 w-6 text-amber-500 shrink-0 mt-0.5"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -152,7 +154,7 @@ const ServicesSection = () => {
                 <li className="flex items-start gap-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-brand-500 shrink-0 mt-0.5"
+                    className="h-6 w-6 text-amber-500 shrink-0 mt-0.5"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -169,7 +171,7 @@ const ServicesSection = () => {
                 <li className="flex items-start gap-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-brand-500 shrink-0 mt-0.5"
+                    className="h-6 w-6 text-amber-500 shrink-0 mt-0.5"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -186,7 +188,7 @@ const ServicesSection = () => {
                 <li className="flex items-start gap-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-brand-500 shrink-0 mt-0.5"
+                    className="h-6 w-6 text-amber-500 shrink-0 mt-0.5"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"

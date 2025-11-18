@@ -72,13 +72,13 @@ const itineraryData: IData[] = [
 
 const ItinerarySection = () => {
   return (
-    <section id="itinerary" className="section bg-brand-50">
+    <section id="itinerary" className="section bg-amber-50">
       <div className="container mx-auto">
         <div className="text-center md:mb-16 mb-6 opacity-0 animate-fade-in-up">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Lịch Trình <span className="gradient-text">Chi Tiết</span>
           </h2>
-          <div className="w-20 h-1 bg-brand-500 mx-auto mb-6"></div>
+          <div className="w-20 h-1 bg-amber-500 mx-auto mb-6"></div>
           <p className="text-gray-700 max-w-3xl mx-auto">
             Chuyến hành trình khám phá Turkmenistan trong 8 ngày 7 đêm, chìm đắm
             trong nền văn hóa Trung Á huyền bí và kỳ quan thiên nhiên sa mạc
@@ -106,7 +106,7 @@ const ItinerarySection = () => {
             >
               <div className="flex flex-col md:flex-row gap-6">
                 <div className="md:w-1/4">
-                  <div className="bg-brand-600 text-white py-2 px-4 rounded-lg inline-block mb-2 font-semibold">
+                  <div className="bg-amber-600 text-white py-2 px-4 rounded-lg inline-block mb-2 font-semibold">
                     {item.day}
                   </div>
                   <h3 className="text-xl font-bold text-gray-900">

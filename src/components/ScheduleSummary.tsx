@@ -99,7 +99,7 @@ const ScheduleSummary = () => {
   return (
     <section
       id="itinerary"
-      className="py-16 md:py-24 bg-tour-light bg-brand-600"
+      className="py-16 md:py-24 bg-tour-light bg-amber-600"
     >
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
@@ -120,11 +120,11 @@ const ScheduleSummary = () => {
                 <Card className="border-2 border-border hover:border-primary transition-colors shadow-soft">
                   <AccordionTrigger className="px-6 py-4 hover:no-underline">
                     <div className="flex items-start gap-4 text-left">
-                      <div className="flex-shrink-0 w-12 h-12 rounded-full bg-gradient-primary bg-[#47871c] flex items-center justify-center text-primary-foreground font-bold text-lg">
+                      <div className="flex-shrink-0 w-12 h-12 rounded-full bg-gradient-primary bg-[#d97706] flex items-center justify-center text-primary-foreground font-bold text-lg">
                         {day.day}
                       </div>
                       <div className="flex-1">
-                        <div className="text-sm text-muted-foreground mb-1">
+                        <div className="text-sm text-[#d97706] mb-1">
                           Ngày {day.day}
                         </div>
                         <div className="text-lg font-semibold">{day.title}</div>
@@ -166,7 +166,7 @@ const ScheduleSummary = () => {
                 <Card className="border-2 border-border hover:border-primary transition-colors shadow-soft">
                   <AccordionTrigger className="px-6 py-4 hover:no-underline">
                     <div className="flex items-start gap-4 text-left">
-                      <div className="flex-shrink-0 w-12 h-12 rounded-full bg-gradient-primary flex items-center justify-center text-primary-foreground font-bold text-lg bg-[#47871c]">
+                      <div className="flex-shrink-0 w-12 h-12 rounded-full bg-gradient-primary flex items-center justify-center text-primary-foreground font-bold text-lg bg-[#d97706]">
                         {day.day}
                       </div>
                       <div className="flex-1">

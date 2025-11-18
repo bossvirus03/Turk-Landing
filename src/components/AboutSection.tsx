@@ -9,7 +9,7 @@ const AboutSection = () => {
             <span className="gradient-text">Turkmenistan</span> - Điểm Đến Huyền
             Thoại
           </h2>
-          <div className="w-20 h-1 bg-brand-500 mx-auto mb-6"></div>
+          <div className="w-20 h-1 bg-amber-500 mx-auto mb-6"></div>
         </div>
 
         <div className="flex flex-col lg:flex-row items-center gap-12">
@@ -57,7 +57,7 @@ const AboutSection = () => {
             </p>
             {/* <a
               href="#itinerary"
-              className="inline-flex items-center text-brand-600 font-semibold hover:text-brand-700"
+              className="inline-flex items-center text-amber-600 font-semibold hover:text-amber-700"
             >
               Xem lịch trình chi tiết
               <ArrowRight className="ml-2 h-5 w-5" />

@@ -13,7 +13,7 @@ const HeroSection = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center pt-20 md:pb-16 pb-1 bg-gradient-to-b from-white to-brand-50"
+      className="min-h-screen flex items-center pt-20 md:pb-16 pb-1 bg-gradient-to-b from-white to-amber-50"
     >
       <div className="container mx-auto px-4 mt-[50px] md:mt-0">
         <div className="flex flex-col lg:flex-row items-center">
@@ -21,17 +21,20 @@ const HeroSection = () => {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight">
               <span className="gradient-text">Turkmenistan 2026</span>
             </h1>
-            <p className="text-[16px] md:text-xl text-brand-700 font-bold mb-6">
+            <p className="text-[16px] md:text-xl text-amber-700 font-bold mb-6">
               <i>Trên Con đường Tơ Lụa – Vén màn Huyền thoại Trung Á</i>
             </p>
             <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 mb-8">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
                   <p className="text-lg text-gray-700">
-                    <span className="font-semibold">⏱️ Thời lượng:</span> 8 ngày - 7 đêm
+                    <span className="font-semibold">⏱️ Thời lượng:</span> 8 ngày
+                    - 7 đêm
                   </p>
                   <p className="text-lg text-gray-700">
-                    <span className="font-semibold">🚩 Khởi hành:</span> 29/4 - 5/7, 3/6 - 11/6, 10/6 - 18/6, 17/6 - 25/6, 26/8 - 3/9, 30/10 - 8/11, 14/11 - 22/11
+                    <span className="font-semibold">🚩 Khởi hành:</span> 29/4 -
+                    5/7, 3/6 - 11/6, 10/6 - 18/6, 17/6 - 25/6, 26/8 - 3/9, 30/10
+                    - 8/11, 14/11 - 22/11
                   </p>
                   <p className="text-lg text-gray-700">
                     <span className="font-semibold">🎁 Quà tặng:</span> 01 áo
@@ -47,13 +50,13 @@ const HeroSection = () => {
               </div>
             </div>
 
-            {/* <p className="text-lg text-brand-600 font-medium mb-6">
+            {/* <p className="text-lg text-amber-600 font-medium mb-6">
               Khởi hành: Liên tục khởi hành từ giờ tới cuối năm. Liên hệ để nhận thông tin mới nhất.
             </p>
              */}
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
-                className="bg-brand-600 hover:bg-brand-700 text-white px-8 py-6 text-lg"
+                className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-6 text-lg"
                 onClick={scrollToContact}
               >
                 Đăng ký ngay
@@ -86,7 +89,7 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className="mt-20 text-center bg-brand-600 text-white py-10 px-6 rounded-xl shadow-lg opacity-0 animate-fade-in-up animate-delay-300">
+        <div className="mt-20 text-center bg-amber-600 text-white py-10 px-6 rounded-xl shadow-lg opacity-0 animate-fade-in-up animate-delay-300">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">GIÁ VÀ ƯU ĐÃI</h2>
           <p className="text-xl">
             Giá trọn gói:
@@ -103,8 +106,7 @@ const HeroSection = () => {
             Đăng ký trước 3 tháng: Ưu đãi 4.000.000 VNĐ, còn 68.000.000 VNĐ{" "}
           </p>
           <p className="text-2xl font-bold mt-4">
-            Đăng ký sau 3 tháng: Không còn ưu đãi, giữ nguyên giá 72.000.000
-            VNĐ{" "}
+            Đăng ký sau 3 tháng: Không còn ưu đãi, giữ nguyên giá 72.000.000 VNĐ{" "}
           </p>
           <p className="text-2xl font-bold mt-4">
             Đăng ký trước 6 tháng hoặc Nhóm từ 5 người: Ưu đãi đặc biệt thêm

@@ -96,7 +96,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="section bg-brand-50">
+    <section id="contact" className="section bg-amber-50">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="opacity-0 animate-fade-in-up">
@@ -123,7 +123,7 @@ const ContactSection = () => {
                   value={formData.name}
                   onChange={handleChange}
                   placeholder="Nhập họ và tên"
-                  className="w-full border-gray-300 focus:border-brand-500 focus:ring focus:ring-brand-200"
+                  className="w-full border-gray-300 focus:border-amber-500 focus:ring focus:ring-amber-200"
                 />
               </div>
 
@@ -141,7 +141,7 @@ const ContactSection = () => {
                   value={formData.phone}
                   onChange={handleChange}
                   placeholder="Nhập số điện thoại"
-                  className="w-full border-gray-300 focus:border-brand-500 focus:ring focus:ring-brand-200"
+                  className="w-full border-gray-300 focus:border-amber-500 focus:ring focus:ring-amber-200"
                 />
               </div>
 
@@ -159,14 +159,14 @@ const ContactSection = () => {
                   value={formData.email}
                   onChange={handleChange}
                   placeholder="Nhập địa chỉ email (không bắt buộc)"
-                  className="w-full border-gray-300 focus:border-brand-500 focus:ring focus:ring-brand-200"
+                  className="w-full border-gray-300 focus:border-amber-500 focus:ring focus:ring-amber-200"
                 />
               </div>
 
               <Button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full bg-brand-600 hover:bg-brand-700 text-white py-6 text-lg"
+                className="w-full bg-amber-600 hover:bg-amber-700 text-white py-6 text-lg"
               >
                 {isSubmitting ? "Đang xử lý..." : "Đăng ký ngay"}
                 {!isSubmitting && <Send className="ml-2" />}
@@ -186,26 +186,27 @@ const ContactSection = () => {
                   </h4>
 
                   <div className="flex items-start space-x-3 mt-4">
-                    <MapPin className="h-5 w-5 text-brand-600 mt-1" />
+                    <MapPin className="h-5 w-5 text-amber-600 mt-1" />
                     <p className="text-gray-700">
-                    số nhà 29, ngõ 260/28 đường Cầu Giấy, Phường Cầu Giấy, thành phố Hà nội, Việt Nam
+                      số nhà 29, ngõ 260/28 đường Cầu Giấy, Phường Cầu Giấy,
+                      thành phố Hà nội, Việt Nam
                     </p>
                   </div>
 
                   <div className="flex items-center space-x-3 mt-3">
-                    <Phone className="h-5 w-5 text-brand-600" />
+                    <Phone className="h-5 w-5 text-amber-600" />
                     <p className="text-gray-700">Điện thoại: 0989.494.899</p>
                   </div>
 
                   <div className="flex items-center space-x-3 mt-3">
-                    <Mail className="h-5 w-5 text-brand-600" />
+                    <Mail className="h-5 w-5 text-amber-600" />
                     <p className="text-gray-700">
                       Email: infor.victour@gmail.com
                     </p>
                   </div>
 
                   {/* <p className="text-gray-700 mt-3">
-                    <a href="https://www.facebook.com/VICCAMPTOUR" target="_blank" rel="noreferrer" className="text-brand-600 hover:underline">
+                    <a href="https://www.facebook.com/VICCAMPTOUR" target="_blank" rel="noreferrer" className="text-amber-600 hover:underline">
                       Fanpage: facebook.com/VICCAMPTOUR
                     </a>
                   </p> */}
@@ -215,7 +216,7 @@ const ContactSection = () => {
                       href="https://www.facebook.com/profile.php?id=61574620767717"
                       target="_blank"
                       rel="noreferrer"
-                      className="text-brand-600 hover:underline"
+                      className="text-amber-600 hover:underline"
                     >
                       Facebook: VIC TOUR: Khám phá miền đất lạ
                     </a>
@@ -235,14 +236,17 @@ const ContactSection = () => {
                 <div className="pt-4 border-t border-gray-200">
                   <h4 className="font-bold mb-2">Các chương trình khác</h4>
                   <p className="text-gray-700 mb-2">
-                    <a href="#https://www.mongco-victour.com/" className="text-brand-600 hover:underline">
+                    <a
+                      href="#https://www.mongco-victour.com/"
+                      className="text-amber-600 hover:underline"
+                    >
                       Chương trình Tour Mông Cổ 2026
                     </a>
                   </p>
                   <p className="text-gray-700 mb-2">
                     <a
                       href="https://vicvietnam.net.vn"
-                      className="text-brand-600 hover:underline"
+                      className="text-amber-600 hover:underline"
                     >
                       Chương trình Trại hè quốc tế VIC Camp
                     </a>

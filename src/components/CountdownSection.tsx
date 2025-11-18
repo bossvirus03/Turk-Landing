@@ -48,7 +48,7 @@ const CountdownSection = () => {
   return (
     <section
       id="countdown"
-      className="py-20 bg-gradient-to-r from-brand-600 to-brand-800 text-white"
+      className="py-20 bg-gradient-to-r from-amber-600 to-amber-800 text-white"
     >
       <div className="container mx-auto">
         <div className="text-center mb-4 opacity-0 animate-fade-in-up">
@@ -79,7 +79,7 @@ const CountdownSection = () => {
             ].map((item, index) => (
               <div
                 key={index}
-                className="bg-white text-brand-800 rounded-xl p-4 text-center shadow-lg animate-countdown"
+                className="bg-white text-amber-800 rounded-xl p-4 text-center shadow-lg animate-countdown"
               >
                 <div className="text-4xl md:text-6xl font-bold">
                   {item.value.toString().padStart(2, "0")}
