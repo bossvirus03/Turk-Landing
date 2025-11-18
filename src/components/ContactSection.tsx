@@ -235,8 +235,8 @@ const ContactSection = () => {
                 <div className="pt-4 border-t border-gray-200">
                   <h4 className="font-bold mb-2">Các chương trình khác</h4>
                   <p className="text-gray-700 mb-2">
-                    <a href="#" className="text-brand-600 hover:underline">
-                      Chương trình Tour Turkmenistan 2026
+                    <a href="#https://www.mongco-victour.com/" className="text-brand-600 hover:underline">
+                      Chương trình Tour Mông Cổ 2026
                     </a>
                   </p>
                   <p className="text-gray-700 mb-2">

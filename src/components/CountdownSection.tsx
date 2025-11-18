@@ -65,7 +65,7 @@ const CountdownSection = () => {
             className="text-2xl md:text-3xl font-bold mt-4"
             style={{ fontSize: 40 }}
           >
-            <span className="line-through">86.000.000đ</span> - 74.000.000đ
+            <span className="line-through">72.000.000đ</span> - 60.000.000đ
           </h3>
         </div>
 

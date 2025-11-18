@@ -15,7 +15,7 @@ const HeroSection = () => {
       id="home"
       className="min-h-screen flex items-center pt-20 md:pb-16 pb-1 bg-gradient-to-b from-white to-brand-50"
     >
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 mt-[50px] md:mt-0">
         <div className="flex flex-col lg:flex-row items-center">
           <div className="lg:w-1/2 lg:pr-12 mb-10 lg:mb-0 opacity-0 animate-fade-in-up">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight">
@@ -63,22 +63,22 @@ const HeroSection = () => {
           <div className="lg:w-1/2 opacity-0 animate-fade-in-up animate-delay-200">
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="/images/1.1.jpg"
+                src="/images/hero/1.jpg"
                 alt="Văn hóa Mông Cổ"
                 className="rounded-lg shadow-xl w-full aspect-square object-cover"
               />
               <img
-                src="/images/1.2.jpg"
+                src="/images/hero/2.jpg"
                 alt="Lều du mục Mông Cổ"
                 className="rounded-lg shadow-xl w-full aspect-square object-cover"
               />
               <img
-                src="/images/1.3.jpg"
+                src="/images/hero/3.jpg"
                 alt="Cưỡi ngựa ở Mông Cổ"
                 className="rounded-lg shadow-xl w-full aspect-square object-cover"
               />
               <img
-                src="/images/1.4.png"
+                src="/images/hero/4.jpg"
                 alt="Ngựa Mông Cổ"
                 className="rounded-lg shadow-xl w-full aspect-square object-cover"
               />

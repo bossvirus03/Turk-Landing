@@ -16,22 +16,22 @@ const AboutSection = () => {
           <div className="lg:w-1/2 opacity-0 animate-fade-in-up animate-delay-200">
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="/images/2.1.png"
+                src="/images/about/5.jpg"
                 alt="Thảo nguyên Mông Cổ"
                 className="rounded-lg shadow-lg w-full h-48 object-cover"
               />
               <img
-                src="/images/2.2.jpg"
+                src="/images/about/6.jpg"
                 alt="Sa mạc Gobi"
                 className="rounded-lg shadow-lg w-full h-48 object-cover"
               />
               <img
-                src="/images/2.3.jpg"
+                src="/images/about/7.jpg"
                 alt="Tu viện Mông Cổ"
                 className="rounded-lg shadow-lg w-full h-48 object-cover"
               />
               <img
-                src="/images/2.4.jpg"
+                src="/images/about/8.jpg"
                 alt="Hồ thiêng Khusvgul"
                 className="rounded-lg shadow-lg w-full h-48 object-cover"
               />
