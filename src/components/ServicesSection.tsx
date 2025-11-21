@@ -71,7 +71,7 @@ const ServicesSection = () => {
                     />
                   </svg>
                   <span>
-                    Chi phí di chuyển bằng xe chuyên dụng trên thảo nguyên.
+                    Chi phí di chuyển bằng xe chuyên dụng tham quan.
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
@@ -267,9 +267,7 @@ const ServicesSection = () => {
                     />
                   </svg>
                   <span>
-                    Các điểm tham quan ngoài chương trình, chi phí cưỡi ngựa,
-                    tham gia các hoạt động mạo hiểm (quý khách có nhu cầu tham
-                    quan thêm nếu thời gian và lộ trình cho phép).
+                   Các điểm tham quan ngoài chương trình, chi phí tham gia các hoạt động (quý khách có nhu cầu tham quan thêm nếu thời gian và lộ trình cho phép).
                   </span>
                 </li>
                 <li className="flex items-start gap-2">

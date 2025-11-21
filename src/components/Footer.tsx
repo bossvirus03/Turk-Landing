@@ -16,7 +16,7 @@ const Footer = () => {
                 href="https://www.facebook.com/profile.php?id=61574620767717"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-brand-600 p-2 rounded-full hover:bg-brand-500 transition-colors"
+                className="bg-amber-600 p-2 rounded-full hover:bg-amber-500 transition-colors"
                 aria-label="Facebook"
               >
                 <svg

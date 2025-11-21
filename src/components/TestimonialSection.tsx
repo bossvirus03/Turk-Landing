@@ -54,7 +54,7 @@ const TestimonialSection = () => {
             Sinh viên nói gì về{" "}
             <span className="gradient-text">chúng tôi</span>
           </h2>
-          <div className="w-20 h-1 bg-brand-500 mx-auto mb-6"></div>
+          <div className="w-20 h-1 bg-amber-500 mx-auto mb-6"></div>
           <p className="text-gray-700 max-w-2xl mx-auto">
             Hãy lắng nghe những chia sẻ từ sinh viên và cựu sinh viên về trải
             nghiệm học tập tại Trường Đại học Công nghiệp TP.HCM.
@@ -63,7 +63,7 @@ const TestimonialSection = () => {
 
         <div className="max-w-4xl mx-auto opacity-0 animate-fade-in-up animate-delay-200">
           <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 relative">
-            <div className="absolute -top-6 left-8 text-brand-500">
+            <div className="absolute -top-6 left-8 text-amber-500">
               <Quote size={48} />
             </div>
             <div className="mt-4">
@@ -71,7 +71,7 @@ const TestimonialSection = () => {
                 "{testimonials[currentIndex].content}"
               </p>
               <div className="flex items-center">
-                <Avatar className="h-14 w-14 border-2 border-brand-200">
+                <Avatar className="h-14 w-14 border-2 border-amber-200">
                   <AvatarImage
                     src={testimonials[currentIndex].image}
                     alt={testimonials[currentIndex].name}
@@ -99,7 +99,7 @@ const TestimonialSection = () => {
             <Button
               variant="outline"
               size="icon"
-              className="rounded-full hover:bg-brand-50 hover:text-brand-600"
+              className="rounded-full hover:bg-amber-50 hover:text-amber-600"
               onClick={handlePrev}
             >
               <ChevronLeft className="h-5 w-5" />
@@ -109,7 +109,7 @@ const TestimonialSection = () => {
                 key={index}
                 variant="ghost"
                 className={`w-3 h-3 p-0 rounded-full ${
-                  currentIndex === index ? "bg-brand-600" : "bg-gray-300"
+                  currentIndex === index ? "bg-amber-600" : "bg-gray-300"
                 }`}
                 onClick={() => setCurrentIndex(index)}
               />
@@ -117,7 +117,7 @@ const TestimonialSection = () => {
             <Button
               variant="outline"
               size="icon"
-              className="rounded-full hover:bg-brand-50 hover:text-brand-600"
+              className="rounded-full hover:bg-amber-50 hover:text-amber-600"
               onClick={handleNext}
             >
               <ChevronRight className="h-5 w-5" />

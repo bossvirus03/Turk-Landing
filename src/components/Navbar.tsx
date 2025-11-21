@@ -62,17 +62,17 @@ const Navbar = () => {
               key={item.name}
               onClick={() => scrollToContent(item.id)}
               className={`cursor-pointer font-medium transition-colors ${activeSection === item.id
-                ? "text-brand-600"
+                ? "text-amber-600"
                 : isScrolled
-                  ? "text-gray-800 hover:text-brand-600"
-                  : "text-gray-800 hover:text-brand-600"
+                  ? "text-gray-800 hover:text-amber-600"
+                  : "text-gray-800 hover:text-amber-600"
                 }`}
             >
               {item.name}
             </div>
           ))}
           <Button
-            className="bg-brand-600 hover:bg-brand-700"
+            className="bg-amber-600 hover:bg-amber-700"
             onClick={() => scrollToContent("contact")}
           >
             Đăng ký ngay
@@ -96,8 +96,8 @@ const Navbar = () => {
               <div
                 key={item.name}
                 className={`cursor-pointer px-6 py-3 font-medium ${activeSection === item.id
-                  ? "text-brand-600"
-                  : "text-gray-800 hover:bg-brand-50 hover:text-brand-600"
+                  ? "text-amber-600"
+                  : "text-gray-800 hover:bg-amber-50 hover:text-amber-600"
                   }`}
                 onClick={() => {
                   setIsMobileMenuOpen(false);
@@ -109,7 +109,7 @@ const Navbar = () => {
             ))}
             <div className="px-6 py-3">
               <Button
-                className="w-full bg-brand-600 hover:bg-brand-700"
+                className="w-full bg-amber-600 hover:bg-amber-700"
                 onClick={() => scrollToContent("contact")}
               >
                 Đăng ký ngay
