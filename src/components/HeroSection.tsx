@@ -94,23 +94,23 @@ const HeroSection = () => {
           <p className="text-xl">
             Giá trọn gói:
             {/* <span className="line-through">89.000.000 VNĐ</span> -*/}
-            <span className=""> 72.000.000 VNĐ</span>
+            <span className=""> 71.500.000 VNĐ</span>
           </p>
           <p className="text-2xl font-bold mt-4">
-            Đăng ký trước 5 tháng: Ưu đãi 12.000.000 VNĐ, chỉ còn 60.000.000 VNĐ{" "}
+            Đăng ký trước 5 tháng: Ưu đãi 11.500.000 VNĐ, chỉ còn 59.500.000 VNĐ{" "}
           </p>
           <p className="text-2xl font-bold mt-4">
-            Đăng ký trước 4 tháng: Ưu đãi 8.000.000 VNĐ, còn 64.000.000 VNĐ{" "}
+            Đăng ký trước 4 tháng: Ưu đãi 7.500.000 VNĐ, còn 63.500.000 VNĐ{" "}
           </p>
           <p className="text-2xl font-bold mt-4">
-            Đăng ký trước 3 tháng: Ưu đãi 4.000.000 VNĐ, còn 68.000.000 VNĐ{" "}
+            Đăng ký trước 3 tháng: Ưu đãi 3.500.000 VNĐ, còn 67.500.000 VNĐ{" "}
           </p>
           <p className="text-2xl font-bold mt-4">
-            Đăng ký sau 3 tháng: Không còn ưu đãi, giữ nguyên giá 72.000.000 VNĐ{" "}
+            Đăng ký sau 3 tháng: Không còn ưu đãi, giữ nguyên giá 71.500.000 VNĐ{" "}
           </p>
           <p className="text-2xl font-bold mt-4">
             Đăng ký trước 6 tháng hoặc Nhóm từ 5 người: Ưu đãi đặc biệt thêm
-            2.000.000 VNĐ{" "}
+            1.500.000 VNĐ{" "}
           </p>
         </div>
       </div>

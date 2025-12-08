@@ -19,7 +19,7 @@ const itineraryData: IData[] = [
   {
     day: "Ngày 2",
     title: "THAM QUAN THỦ ĐÔ ASHGABAT",
-    content: `<strong>Thăm quan, khám phá Thủ đô Ashgabat</strong>\n\n<strong>- Bảo tàng Quốc gia:</strong> Khai trương từ năm 1998 gồm 7 Gian trưng bày, Bảo tàng là nơi trưng bày tất cả những phát hiện khảo cổ niên đại lên tới 5000 năm trước Công Nguyên.\n<strong>- Đài tưởng niệm Magtymguly Pyragy:</strong> Bức tượng là tác phẩm của nhà điêu khắc bậc thầy Saragt Babayev – được đưa vào sách kỉ lục Guinness, được trao tặng nhiều giải thưởng danh giá.\n\n<strong>- Khách sạn Yyldyz:</strong> Khách sạn 5 sao với tầm nhìn bao quát toàn cảnh đẹp nhất của thành phố Ashgabat.\n<strong>- Cung điện hình cầu:</strong> Khu phức hợp có kiến trúc hiện đại, độc đáo tại Thủ đô Ashgabat.\n`,
+    content: `<strong>Thăm quan, khám phá Thủ đô Ashgabat</strong>\n<strong>Thủ đô Ashgabat mang vẻ đẹp lộng lẫy, hiện đại nằm bên bờ sa mạc Karakum. Nơi đây có nhiều công trình kiến trúc độc đáo và đa dạng phản ánh sự kết hợp giữa các nền văn hóa Trung Đông, Nga và Âu-Mỹ.</strong>\n<strong>- Bảo tàng Quốc gia:</strong> Khai trương từ năm 1998 gồm 7 Gian trưng bày, Bảo tàng là nơi trưng bày tất cả những phát hiện khảo cổ niên đại lên tới 5000 năm trước Công Nguyên.\n<strong>- Đài tưởng niệm Magtymguly Pyragy:</strong> Bức tượng là tác phẩm của nhà điêu khắc bậc thầy Saragt Babayev – được đưa vào sách kỉ lục Guinness, được trao tặng nhiều giải thưởng danh giá.\n\n<strong>- Khách sạn Yyldyz:</strong> Khách sạn 5 sao với tầm nhìn bao quát toàn cảnh đẹp nhất của thành phố Ashgabat.\n<strong>- Cung điện hình cầu:</strong> Khu phức hợp có kiến trúc hiện đại, độc đáo tại Thủ đô Ashgabat.\n`,
     images: ["/images/day2/2.png", "/images/day2/3.jpg", "/images/day2/4.jpg"],
   },
   {
@@ -31,7 +31,7 @@ const itineraryData: IData[] = [
   {
     day: "Ngày 4",
     title: "THÀNH PHỐ GEOKDEPE",
-    content: `<strong>- Di chuyển tới Khu đô thị cổ Nisa của đế chế Parthia. (19km):</strong> Không chỉ mang vẻ đẹp huyền bí, nơi đây còn chứa đựng những di tích văn hóa quí giá được UNESCO công nhận là Di sản thế giới năm 2007.\n
+    content: `<strong>- Di chuyển tới Khu đô thị cổ Nisa của đế chế Parthia. (19km):</strong> Không chỉ mang vẻ đẹp huyền bí, nơi đây còn chứa đựng những di tích văn hóa quý giá được UNESCO công nhận là Di sản thế giới năm 2007.\n
     <strong>- Thăm quan Trang trại ngựa Akhal Teke:</strong> Giống ngựa Akhal Teke được coi là giống ngựa quí giá nhất thế giới. Những người nổi tiếng như Alexander Đại đế, Thành Cát Tư Hãn và Darius I đều rất coi trọng những chú ngựa này. Bên cạnh việc ngắm nhìn cảnh quan tuyệt đẹp du khách còn có cơ hội trải nghiệm cưỡi ngựa, hay thực hiện những kỹ thuật chuyên nghiệp như đứng trên lưng ngựa đang phi nước đại – dành riêng cho du khách có kinh nghiệm với bộ môn này.\n
     <strong>- Ăn trưa tại Trại ngựa:</strong>\n
     <strong>- Thăm quan Pháo đài Gokdepe:</strong>\nPháo đài được quân đội Nga xây dựng trên bờ biển Caspi làm căn cứ để di chuyển tới Trung Á. Xây dựng vào năm 1869 và là pháo đài cuối cùng trên con đường đến Trung Á của Đế quốc Nga.\n
@@ -73,7 +73,7 @@ const itineraryData: IData[] = [
     content: `<strong>Buổi sáng: Khám phá Làng Nokhur</strong>\n<strong>- Làng Nokhur:</strong> Được ưu ái gọi là một trong những địa điểm lãng mạn nhất trên thế giới. Ngôi làng nổi tiếng là nơi sinh sống của nhóm người Turkmen mang bản sắc văn hóa riêng biệt, được cho là hậu duệ của các chiến binh Alexander Đại đế. Du khách sẽ được thăm quan ngôi làng, nghe những câu chuyện xưa về phong tục, văn hóa truyền thống.\n<strong>- Khu tâm linh – Nghĩa trang sừng dê:</strong> Một địa điểm văn hóa tâm linh vô cùng độc đáo, nổi bật với cách trang trí mộ bằng sừng dê núi – biểu tượng linh thiêng trong tín ngưỡng người dân tộc Nokhur.\n<strong>- Khám phá hang động Kyz Bibi:</strong> Nơi linh thiêng của làng Nokhur.\n<strong>- Ghé thăm Hồ nước ngầm Kowata</strong> (trên đường trở lại Ashgabat)\n
     <strong>- Ăn trưa & giao lưu văn hoá với người dân địa phương</strong>\n
     <strong>- Buổi chiều: Trải nghiệm các Khu Chợ nổi tiếng tại Thủ đô Ashgabat</strong>\n
-    <strong>- Chợ Gulistan: </strong>Chợ có mái che lớn và lâu đời nhất Turkmenistan. Nằm ngay trung tâm thành phố, đây không chỉ là nơi mua sắm, còn là nơi phản ánh nhũng nét độc đáo của văn hóa, truyền thống đất nước này. Vào Thế Kỉ XXI: Chợ Gulistan còn được gọi là “Thời đại Hoàng Kim” hoặc “Tolkuchka”.\n<strong>- Chợ Thế kỉ XXI: </strong> Hay còn được gọi là “Thời đại Hoàng Kim” hoặc “Tolkuchka”\n<strong>- Trung tâm mua sắm Berkarar:</strong> Trung tâm mua sắm đông đúc, hiện đại bậc nhất. Du khách thăm quan và tự do mua sắm.\n<strong>- Ăn tối:</strong> Tại nhà hàng địa phương.`,
+    <strong>- Chợ Gulistan: </strong>Chợ có mái che lớn và lâu đời nhất Turkmenistan. Nằm ngay trung tâm thành phố, đây không chỉ là nơi mua sắm, còn là nơi phản ánh những nét độc đáo của văn hóa, truyền thống đất nước này. Vào Thế Kỉ XXI: Chợ Gulistan còn được gọi là “Thời đại Hoàng Kim” hoặc “Tolkuchka”.\n<strong>- Chợ Thế kỉ XXI: </strong> Hay còn được gọi là “Thời đại Hoàng Kim” hoặc “Tolkuchka”\n<strong>- Trung tâm mua sắm Berkarar:</strong> Trung tâm mua sắm đông đúc, hiện đại bậc nhất. Du khách thăm quan và tự do mua sắm.\n<strong>- Ăn tối:</strong> Tại nhà hàng địa phương.`,
     images: ["/images/day7/16.jpeg"],
   },
   {
@@ -132,7 +132,7 @@ const ItinerarySection = () => {
                       <strong>Bảo tàng Quốc gia</strong>,{" "}
                       <strong>Đài tưởng niệm Magtymguly</strong>,{" "}
                       <strong>Khách sạn Yyldyz</strong>,{" "}
-                      <strong>Cung điện hình cầu</strong>,{" "}
+                      <strong>Cung điện hình cầu</strong>.{" "}
                     </div>
                   )}
                   {item.day === "Ngày 3" && (
@@ -145,7 +145,10 @@ const ItinerarySection = () => {
                   )}
                   {item.day === "Ngày 4" && (
                     <div className="prose max-w-none mt-1">
-                      <strong>Thủ đô Ashgabat - Khu định cư cổ Nisa – Thành phố Geokdepe - Trại ngựa Akhal Teke </strong>
+                      <strong>
+                        Thủ đô Ashgabat - Khu định cư cổ Nisa – Thành phố
+                        Geokdepe - Trại ngựa Akhal Teke{" "}
+                      </strong>
                     </div>
                   )}
                   {item.day === "Ngày 5" && (
@@ -157,9 +160,10 @@ const ItinerarySection = () => {
                   )}
                   {item.day === "Ngày 6" && (
                     <div className="prose max-w-none mt-1">
-                      <strong>Bảo tàng Lịch sử & Dân tộc học</strong>,{" "}
+                      <strong>Bảo tàng Lịch sử & Văn hóa Mary</strong>,{" "}
                       <strong>Nhà thờ Pokrovskaya</strong>,{" "}
-                      <strong>Thánh đường Gurbanguly Hajji</strong>
+                      <strong>Thánh đường Hồi giáo Gurbanguly Hajji</strong>,{" "}
+                      <strong>Chợ địa phương Mary </strong>
                     </div>
                   )}
                   {item.day === "Ngày 7" && (
